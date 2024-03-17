@@ -238,7 +238,6 @@ nav ul li a:hover::after {
   .grid-container {
     position: relative;
     margin-top: 120px;
-    margin-left: 50px;
     width: 80%;
    /* border: 10px solid var(--clr-dark); */
     display: grid;
