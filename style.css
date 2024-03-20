@@ -326,7 +326,36 @@ scroller {
   background: red !important;
 }
 
+@media (max-width: 768px) {
+  /* Adjust header styling */
+  .container {
+    padding: 0 5%;
+  }
 
+  nav ul {
+    padding-right: 10px;
+  }
+
+  .text-box h1 {
+    font-size: 100px;
+    overflow: hidden;
+  }
+
+  .profile img {
+  display: none;
+  }
+
+  .text-box a {
+    margin: 10px;
+  }
+
+  .text-box .row {
+    margin: 5% 10%;
+  }
+  .social-icons {
+     display: none;
+  }
+}
 
 
 
@@ -666,6 +695,17 @@ button:active {
   .item {
     width: 100%; /* Set the width of each grid item */
   }
+
+  .grid-container .custom-button {
+    display: none;
+  }
+
+.modal-content {
+    width: 80%;
+  }
+.modal-content img {
+  width: 100%;
+}
 }
 
 /* Adjustments for Tablets */
@@ -689,5 +729,7 @@ button:active {
     grid-gap: 1em;
     grid-template-rows: repeat(, 175px);
     grid-template-columns: repeat(2, 175px);
+  }
+}
   }
 }
